@@ -43,13 +43,13 @@
             PROFILE_COMPLETED: 'Profile Completed'
         })
         .constant('FIREBASE_CONFIG', {
-                apiKey: "AIzaSyCvxGIUFo6zNg7n6KHTvhV6RASjfbFB8ig",
-                  authDomain: "telkop-debd9.firebaseapp.com",
-                  databaseURL: "https://telkop-debd9-default-rtdb.firebaseio.com",
-                  projectId: "telkop-debd9",
-                 storageBucket: "telkop-debd9.appspot.com",
-                  messagingSenderId: "552164989119",
-        })
+                apiKey: "AIzaSyDdDI78wOtWQ7GfGm-dEhR8ay1WCJe6GYE",
+                      authDomain: "fir-7a168.firebaseapp.com",
+                      databaseURL: "https://fir-7a168-default-rtdb.firebaseio.com",
+                      projectId: "fir-7a168",
+                      storageBucket: "fir-7a168.appspot.com",
+                      messagingSenderId: "588623315044",
+                  });
         .run([
             '$rootScope',
             '$location',
