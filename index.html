@@ -1,0 +1,80 @@
+<!--
+* angular-firebase-user-profiles
+* (c) 2016 Cliff Hall @ Futurescale, Inc
+*
+* Basic user profile management with Angular 1.x and Firebase
+-->
+<!DOCTYPE html>
+<html lang="en" ng-app="angular-firebase-user-profiles">
+    <head profile="http://www.w3.org/2005/10/profile">
+
+    <!-- META DATA -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Angular Firebase User Profiles">
+    <meta name="author" content="Cliff Hall">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="assets/img/user-profile.png" />
+
+    <!-- PAGE TITLE -->
+    <title>User Profiles</title>
+
+    <!-- VENDOR CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <link href="assets/css/jumbotron-narrow.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-social.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- APP CSS -->
+    <link href="assets/css/app.css" rel="stylesheet"/>
+
+    <!-- Hide raw HTML until Angular compiles it -->
+    <style>[ng-cloak] { display: none; }</style>
+
+  </head>
+
+  <body>
+
+    <!-- PAGE -->
+    <div class="container">
+
+        <!-- HEADER / MENU -->
+        <div class="navbar navbar-default">
+            <div class="navbar-inner container-fluid">
+                <div ng-include="'app/views/nav.html'"></div>
+            </div>
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <div class="main-wrapper">
+            <div ng-view></div>
+        </div>
+
+        <!-- FOOTER -->
+        <div ng-include="'app/views/footer.html'"></div>
+
+    </div>
+
+    <!-- VENDOR JS -->
+    <script src="assets/lib/angular.min.js"></script>
+    <script src="assets/lib/angular-route.min.js"></script>
+    <script src="assets/lib/angular-sanitize.min.js"></script>
+    <script src="assets/lib/angular-messages.min.js"></script>
+    <script src="assets/lib/jquery-2.2.0.min.js"></script>
+    <script src="assets/lib/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+
+    <!-- APP JS -->
+    <script src="app/app.js"></script>
+    <script src="app/config/startup.js"></script>
+    <script src="app/config/routes.js"></script>
+    <script src="app/services/broadcast-service.js"></script>
+    <script src="app/services/profile-service.js"></script>
+    <script src="app/controllers/user-controller.js"></script>
+    <script src="app/controllers/nav-controller.js"></script>
+
+  </body>
+</html>
