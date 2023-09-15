@@ -43,12 +43,12 @@
             PROFILE_COMPLETED: 'Profile Completed'
         })
         .constant('FIREBASE_CONFIG', {
-                apiKey: "AIzaSyAYfP7q0CSlu3swEMGDmueGDmS17jinSMQ",
-                authDomain: "ng-user-profiles.firebaseapp.com",
-                databaseURL: "https://ng-user-profiles.firebaseio.com",
-                projectId: "ng-user-profiles",
-                storageBucket: "ng-user-profiles.appspot.com",
-                messagingSenderId: "635929619423"
+                apiKey: "AIzaSyCvxGIUFo6zNg7n6KHTvhV6RASjfbFB8ig",
+                  authDomain: "telkop-debd9.firebaseapp.com",
+                  databaseURL: "https://telkop-debd9-default-rtdb.firebaseio.com",
+                  projectId: "telkop-debd9",
+                 storageBucket: "telkop-debd9.appspot.com",
+                  messagingSenderId: "552164989119",
         })
         .run([
             '$rootScope',
