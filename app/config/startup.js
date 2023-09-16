@@ -43,12 +43,12 @@
             PROFILE_COMPLETED: 'Profile Completed'
         })
         .constant('FIREBASE_CONFIG', {
-                apiKey: "AIzaSyAYfP7q0CSlu3swEMGDmueGDmS17jinSMQ",
-                authDomain: "ng-user-profiles.firebaseapp.com",
-                databaseURL: "https://ng-user-profiles.firebaseio.com",
-                projectId: "ng-user-profiles",
-                storageBucket: "ng-user-profiles.appspot.com",
-                messagingSenderId: "635929619423"
+                apiKey: "AIzaSyDdDI78wOtWQ7GfGm-dEhR8ay1WCJe6GYE",
+                authDomain: "fir-7a168.firebaseapp.com",
+                databaseURL: "https://fir-7a168-default-rtdb.firebaseio.com",
+                projectId: "fir-7a168",
+                storageBucket: "fir-7a168.appspot.com",
+                messagingSenderId: "G-5D51KX7CFJ"
         })
         .run([
             '$rootScope',
